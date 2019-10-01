@@ -3,9 +3,23 @@
       "name": "Ludovic Laloux",
       "title1": "Développeur",
       "title2": "Front-End",
-      "description": "Présentation",
-      "description-content": "Développeur Front-End, avec une formation full stack, et un très fort intérêt dans la création d'interfaces utilisateur responsives, dynamiques et intuitifs"
-
+      "description": {
+        "title": "Présentation",
+        "content": "Développeur Front-End, avec une formation Full Stack, et un très fort intérêt pour la création d'interfaces utilisateur responsives, dynamiques et intuitifs"
+      },
+      "contact": {
+        "title": "Contact",
+        "phone": "06.22.11.59.93",
+        "mail": "ludo.laloux@gmail.com",
+        "website": "www.ludoviclaloux.com",
+        "address": "Toulouse, France"
+      },
+      "hobbies": {
+        "title": "Loisirs",
+        "sport": "Sports (escalade, plongée sous-marine)",
+        "music": "Musique (trompettiste du groupe A-tempo)",
+        "travels": "Voyages"
+      }
   }
 }
 

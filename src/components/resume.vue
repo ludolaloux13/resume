@@ -13,12 +13,56 @@
                 {{ $t('profile.title2') }}
             </div>
             <div class="description">
-                <div class="description-header">
+                <div class="profile-header">
                     <font-awesome-icon size="2x" :icon="['far', 'user']"/> 
-                    <span class="description-title">{{ $t('profile.description') }}</span>
+                    <span class="header-title">{{ $t('profile.description.title') }}</span>
                 </div>
                 <div class="description-content">
-                    <p>{{ $t('profile.description-content') }}</p>
+                    <p>{{ $t('profile.description.content') }}</p>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="profile-header">
+                    <font-awesome-icon size="2x" :icon="['far', 'id-badge']"/> 
+                    <span class="header-title">{{ $t('profile.contact.title') }}</span>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-item">
+                        <font-awesome-icon size="1x" icon="envelope"/>
+                        <span>{{ $t('profile.contact.mail') }}</span>
+                    </div>
+                    <div class="contact-item">
+                        <font-awesome-icon size="1x" icon="phone"/> 
+                        <span>{{ $t('profile.contact.phone') }}</span>
+                    </div>
+                    <div class="contact-item">
+                        <font-awesome-icon size="1x" icon="map-marker-alt"/> 
+                        <span>{{ $t('profile.contact.address') }}</span>
+                    </div>
+                    <div class="contact-item">
+                        <font-awesome-icon size="1x" icon="desktop"/> 
+                        <span>{{ $t('profile.contact.website') }}</span>
+                    </div>
+                </div>
+                <div class="hobbies">
+                    <div class="profile-header">
+                        <font-awesome-icon size="2x" :icon="['far', 'paper-plane']"/> 
+                        <span class="header-title">{{ $t('profile.hobbies.title') }}</span>
+                    </div>
+                    <div class="hobbies-content">
+                        <div class="hobbies-item">
+                            <font-awesome-icon size="1x" icon="swimmer"/>
+                            <p>{{ $t('profile.hobbies.sport') }}</p>
+                        </div>
+                        <div class="hobbies-item">
+                            <font-awesome-icon size="1x" icon="guitar"/>
+                            <p>{{ $t('profile.hobbies.music') }}</p>
+                        </div>
+                        <div class="hobbies-item">
+                            <font-awesome-icon size="1x" icon="plane"/>
+                            <p>{{ $t('profile.hobbies.travels') }}</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -78,24 +122,46 @@
             }
             .job-title {
                 padding-top: 8px;
+                padding-bottom: 8px;
                 font-weight: 400;
                 font-size: 30px;
             }
 
-            .description {
-                .description-header {
-                    padding-top: 30px;
-                    padding-left: 36px;
-                    .description-title {
-                        font-size: 22px;
-                        padding-left: 15px;                    
+            .profile-header {
+                padding-top: 30px;
+                padding-left: 36px;
+                .header-title {
+                    font-size: 22px;
+                    padding-left: 15px;                    
+                }
+            }
+            .description-content {
+                padding-left: 16px;
+                padding-right: 18px;
+                font-size: 18px;
+                text-align: left;
+            }
+            .contact-content {
+                padding-top: 10px;
+                padding-bottom: 18px;
+                .contact-item {
+                    padding-top: 18px;
+                    padding-left: 16px;
+                    span {
+                        padding-left: 12px;
                     }
                 }
-                .description-content {
+            }
+            .hobbies-content {
+                padding-top: 10px;
+                .hobbies-item {
+                    display: flex;
+                    padding-top: 18px;
                     padding-left: 16px;
-                    padding-right: 18px;
-                    font-size: 18px;
-                    text-align: left;
+                    p {
+                        padding-left: 12px;
+                        margin: 0;
+                    }
                 }
             }
         }
