@@ -90,7 +90,7 @@
             color: white;
             .picture-frame {
                 border-radius: 50%;
-                border: 10px solid white;
+                border: 8px solid white;
                 width: 186px;
                 height: 186px;
                 margin-top: 30px;
@@ -101,7 +101,7 @@
                 .picture {
                     border-width: 3px;
                     border-style: solid;
-                    border-color: black;
+                    border-color: rgba(75, 75, 75, 0.8);;
                     border-radius: 50%;
                     width: 180px;
                     height: 180px;
@@ -119,6 +119,7 @@
                 font-size: 35px;
                 border-bottom: solid 4px white;
                 padding-bottom: 8px;
+                margin: 0 5px;
             }
             .job-title {
                 padding-top: 8px;
