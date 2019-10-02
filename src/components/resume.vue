@@ -22,11 +22,11 @@
         width: 827px;
         display: flex;
         .left-side {
-            width: 35%;
+            width: 30%;
             height: 100%;
         }
         .right-side {
-            width: 65%;
+            width: 70%;
             height: 100%;
         }
     }

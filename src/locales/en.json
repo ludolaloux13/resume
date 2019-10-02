@@ -32,6 +32,32 @@
       "django": "Django",
       "webpack": "Webpack",
       "git": "Git"
+    },
+    "employment": {
+      "title": "Expériences",
+      "guidap": {
+        "date": "mars - août 2019",
+        "company": "Guidap",
+        "job": "Développeur Web Front-End",
+        "description1": "Stage de 6 mois au sein de l'équipe en charge du développement produit.",
+        "description2": "Participation à l'intégration, au développement et à la maintenance des interfaces du produit Guidap sous VueJs."
+      },
+      "inp": {
+        "date": "janvier 2016 - septembre 2018",
+        "company": "Institut National Polytechnique de Toulouse",
+        "job": "Ingénieur formation",
+        "description1": "Chargé de projet et coordinateur de formations innovantes à l'INP-ENSEEIHT.",
+        "description2": "Développement de l'offre de formation dans les secteur du numérique, de l'usine 4.0, et de l'innovation.",
+        "description3": "Coordination des formations qualifiantes pour les entreprises et les professionnels."
+      },
+      "ifi": {
+        "date": "octobre 2014 - juin 2015",
+        "company": "Institut Français d'Indonésie",
+        "job": "Formateur Français Langue Etrangère",
+        "description1": "Enseignement du français tout niveaux.",
+        "description2": "Formation de formateur pour les enseignants indonésiens."
+      }
+
     }
   }
 }
