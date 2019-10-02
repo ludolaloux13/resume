@@ -20,6 +20,19 @@
         "music": "Musique (trompettiste du groupe A-tempo)",
         "travels": "Voyages"
       }
+  },
+  "rightside": {
+    "skills": {
+      "title": "Compétences",
+      "html": "HTML/CSS",
+      "javascript": "Javascript",
+      "vuejs": "VueJS",
+      "react": "React",
+      "python": "Python",
+      "django": "Django",
+      "webpack": "Webpack",
+      "git": "Git"
+    }
   }
 }
 

@@ -5,7 +5,7 @@ import i18n from './i18n';
 Vue.config.productionTip = false;
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
-import { faUser, faIdBadge, faPaperPlane } from '@fortawesome/free-regular-svg-icons';
+import { faUser, faIdBadge, faPaperPlane, faStar } from '@fortawesome/free-regular-svg-icons';
 import { faEnvelope, faPhone, faMapMarkerAlt, faDesktop, faSwimmer, faGuitar, faPlane } from '@fortawesome/free-solid-svg-icons';
 
 library.add(
@@ -18,7 +18,8 @@ library.add(
   faPaperPlane,
   faSwimmer,
   faGuitar,
-  faPlane
+  faPlane,
+  faStar
 )
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
