@@ -5,7 +5,7 @@
       "title2": "Front-End",
       "description": {
         "title": "Présentation",
-        "content": "Développeur Front-End, avec une formation Full Stack, et un très fort intérêt pour la création d'interfaces utilisateur responsives, dynamiques et intuitifs"
+        "content": "Développeur Front-End, avec une formation Full Stack et un fort intérêt pour l'UX, le SEO et le Responsive Web Design."
       },
       "contact": {
         "title": "Contact",
@@ -40,15 +40,15 @@
         "company": "Guidap",
         "job": "Développeur Web Front-End",
         "description1": "Stage de 6 mois au sein de l'équipe en charge du développement produit.",
-        "description2": "Participation à l'intégration, au développement et à la maintenance des interfaces du produit Guidap sous VueJs."
+        "description2": "Participation à l'intégration, au développement et à la maintenance des interfaces du produit Guidap sous VueJs.",
+        "description3": "Stack technique: VueJS, Bootstrap, Webpack, Docker, Php/Symfony."
       },
       "inp": {
         "date": "janvier 2016 - septembre 2018",
         "company": "Institut National Polytechnique de Toulouse",
         "job": "Ingénieur formation",
-        "description1": "Chargé de projet et coordinateur de formations innovantes à l'INP-ENSEEIHT.",
-        "description2": "Développement de l'offre de formation dans les secteur du numérique, de l'usine 4.0, et de l'innovation.",
-        "description3": "Coordination des formations qualifiantes pour les entreprises et les professionnels."
+        "description1": "Chargé de projet et coordinateur du D.U. \"Développeur d'Applications Full Stack\" à l'INP-ENSEEIHT.",
+        "description2": "Développement de l'offre de formation dans les secteur du numérique, de l'usine 4.0, et de l'innovation."
       },
       "ifi": {
         "date": "octobre 2014 - juin 2015",
@@ -57,7 +57,21 @@
         "description1": "Enseignement du français tout niveaux.",
         "description2": "Formation de formateur pour les enseignants indonésiens."
       }
-
+    },
+    "education": {
+      "title": "Formations",
+      "fullstack": {
+        "date": "octobre 2018 - mars 2019",
+        "school": "INP-ENSEEIHT",
+        "degree": "Diplôme Universitaire Développeur d'Applications Full Stack",
+        "description": "Développement sous système Unix, Développement Web Front-End (VueJs, React), Back-End (Python, Django), méthodes de développement Agile (Kanban, Scrum)" 
+      },
+      "fle": {
+        "date": "juin 2015",
+        "school": "Université Montpellier 3",
+        "degree": "Maitrise \"Enseignement du Français Langue Etrangère\"",
+        "description": "Formation en didactique pour l'apprentissage des langues étrangères"
+      }
     }
   }
 }

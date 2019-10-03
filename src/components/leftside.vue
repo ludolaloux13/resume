@@ -128,7 +128,7 @@
         .description-content {
             padding-left: 16px;
             padding-right: 18px;
-            font-size: 18px;
+            font-size: 19px;
             text-align: left;
         }
         .contact-content {

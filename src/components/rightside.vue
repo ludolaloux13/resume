@@ -3,7 +3,7 @@
         <div class="right-side-wrapper">
             <div class="header">
                 <div class="header-icon">
-                    <font-awesome-icon size="2x" :icon="['far', 'star']"/>
+                    <font-awesome-icon size="2x" icon="star"/>
                 </div>
                 <div class="header-title">
                     <span>{{ $t('rightside.skills.title') }}</span>
@@ -20,7 +20,7 @@
                         <span>{{ $t('rightside.skills.html') }}</span>
                     </div>
                     <div class="skill-level">
-                        <img src="../assets/skill90level.png" width="50"/>
+                        <img src="../assets/html.png" width="40"/>
                     </div>
                 </div>
                 <div class="skill-item">
@@ -28,7 +28,7 @@
                         <span>{{ $t('rightside.skills.javascript') }}</span>
                     </div>
                     <div class="skill-level">
-                        <img src="../assets/skill80level.png" width="50"/>
+                        <img src="../assets/javascript.png" width="40"/>
                     </div>
                 </div>
                 <div class="skill-item">
@@ -36,7 +36,7 @@
                         <span>{{ $t('rightside.skills.vuejs') }}</span>
                     </div>
                     <div class="skill-level">
-                        <img src="../assets/skill80level.png" width="50"/>
+                        <img src="../assets/vue.png" width="40"/>
                     </div>
                 </div>
                 <div class="skill-item">
@@ -44,7 +44,7 @@
                         <span>{{ $t('rightside.skills.react') }}</span>
                     </div>
                     <div class="skill-level">
-                        <img src="../assets/skill60level.png" width="50"/>
+                        <img src="../assets/react.png" width="40"/>
                     </div>
                 </div>
                 <div class="skill-item">
@@ -52,7 +52,7 @@
                         <span>{{ $t('rightside.skills.python') }}</span>
                     </div>
                     <div class="skill-level">
-                        <img src="../assets/skill70level.png" width="50"/>
+                        <img src="../assets/python.png" width="40"/>
                     </div>
                 </div>            
                 <div class="skill-item">
@@ -60,7 +60,7 @@
                         <span>{{ $t('rightside.skills.django') }}</span>
                     </div>
                     <div class="skill-level">
-                        <img src="../assets/skill50level.png" width="50"/>
+                        <img src="../assets/django.jpeg" width="40"/>
                     </div>
                 </div>
                 <div class="skill-item">
@@ -68,7 +68,7 @@
                         <span>{{ $t('rightside.skills.webpack') }}</span>
                     </div>
                     <div class="skill-level">
-                        <img src="../assets/skill70level.png" width="50"/>
+                        <img src="../assets/webpack.png" width="40"/>
                     </div>
                 </div>
                 <div class="skill-item">
@@ -76,7 +76,7 @@
                         <span>{{ $t('rightside.skills.git') }}</span>
                     </div>
                     <div class="skill-level">
-                        <img src="../assets/skill90level.png" width="50"/>
+                        <img src="../assets/git.png" width="40"/>
                     </div>
                 </div>                                            
             </div>
@@ -89,40 +89,71 @@
                 </div>
                 <div class="header-delimiter"></div>
             </div>
-            <div class="employment">
+            <div class="list employment">
                 <div class="left-line">
                     <div class="left-line-square"></div>
                     <div class="left-line-delimiter"></div>
                 </div>
-                <div class="employment-item">
-                    <p class="employment-date">{{ $t('rightside.employment.guidap.date') }}</p>
-                    <p class="employment-company">{{ $t('rightside.employment.guidap.company') }}</p>
-                    <p class="employment-job">{{ $t('rightside.employment.guidap.job') }}</p>
-                    <p class="employment-description">{{ $t('rightside.employment.guidap.description1') }}</p>
-                    <p class="employment-description">{{ $t('rightside.employment.guidap.description2') }}</p>
-                </div>
-                <div class="left-line">
-                    <div class="left-line-square"></div>
-                    <div class="left-line-delimiter"></div>
-                </div>
-                <div class="employment-item">
-                    <p class="employment-date">{{ $t('rightside.employment.inp.date') }}</p>
-                    <p class="employment-company">{{ $t('rightside.employment.inp.company') }}</p>
-                    <p class="employment-job">{{ $t('rightside.employment.inp.job') }}</p>
-                    <p class="employment-description">{{ $t('rightside.employment.inp.description1') }}</p>
-                    <p class="employment-description">{{ $t('rightside.employment.inp.description2') }}</p>
-                    <p class="employment-description">{{ $t('rightside.employment.inp.description3') }}</p>
+                <div class="list-item">
+                    <p class="list-date">{{ $t('rightside.employment.guidap.date') }}</p>
+                    <p class="list-company">{{ $t('rightside.employment.guidap.company') }}</p>
+                    <p class="list-job">{{ $t('rightside.employment.guidap.job') }}</p>
+                    <p class="list-description">{{ $t('rightside.employment.guidap.description1') }}</p>
+                    <p class="list-description">{{ $t('rightside.employment.guidap.description2') }}</p>
+                    <p class="list-description">{{ $t('rightside.employment.guidap.description3') }}</p>
                 </div>
                 <div class="left-line">
                     <div class="left-line-square"></div>
                     <div class="left-line-delimiter"></div>
                 </div>
-                <div class="employment-item">
-                    <p class="employment-date">{{ $t('rightside.employment.ifi.date') }}</p>
-                    <p class="employment-company">{{ $t('rightside.employment.ifi.company') }}</p>
-                    <p class="employment-job">{{ $t('rightside.employment.ifi.job') }}</p>
-                    <p class="employment-description">{{ $t('rightside.employment.ifi.description1') }}</p>
-                    <p class="employment-description">{{ $t('rightside.employment.ifi.description2') }}</p>
+                <div class="list-item">
+                    <p class="list-date">{{ $t('rightside.employment.inp.date') }}</p>
+                    <p class="list-company">{{ $t('rightside.employment.inp.company') }}</p>
+                    <p class="list-job">{{ $t('rightside.employment.inp.job') }}</p>
+                    <p class="list-description">{{ $t('rightside.employment.inp.description1') }}</p>
+                    <p class="list-description">{{ $t('rightside.employment.inp.description2') }}</p>
+                </div>
+                <div class="left-line">
+                    <div class="left-line-square"></div>
+                    <div class="left-line-delimiter"></div>
+                </div>
+                <div class="list-item">
+                    <p class="list-date">{{ $t('rightside.employment.ifi.date') }}</p>
+                    <p class="list-company">{{ $t('rightside.employment.ifi.company') }}</p>
+                    <p class="list-job">{{ $t('rightside.employment.ifi.job') }}</p>
+                    <p class="list-description">{{ $t('rightside.employment.ifi.description1') }}</p>
+                    <p class="list-description">{{ $t('rightside.employment.ifi.description2') }}</p>
+                </div>
+            </div>
+            <div class="header">
+                <div class="header-icon graduation-cap">
+                    <font-awesome-icon size="2x" icon="graduation-cap"/>
+                </div>
+                <div class="header-title">
+                    <span>{{ $t('rightside.education.title') }}</span>
+                </div>
+                <div class="header-delimiter"></div>
+            </div>
+            <div class="list education">
+                <div class="left-line">
+                    <div class="left-line-square"></div>
+                    <div class="left-line-delimiter"></div>
+                </div>
+                <div class="list-item">
+                    <p class="list-date">{{ $t('rightside.education.fullstack.date') }}</p>
+                    <p class="list-company">{{ $t('rightside.education.fullstack.school') }}</p>
+                    <p class="list-job">{{ $t('rightside.education.fullstack.degree') }}</p>
+                    <p class="list-description">{{ $t('rightside.education.fullstack.description') }}</p>
+                </div>
+                <div class="left-line">
+                    <div class="left-line-square"></div>
+                    <div class="left-line-delimiter"></div>
+                </div>
+                <div class="list-item">
+                    <p class="list-date">{{ $t('rightside.education.fle.date') }}</p>
+                    <p class="list-company">{{ $t('rightside.education.fle.school') }}</p>
+                    <p class="list-job">{{ $t('rightside.education.fle.degree') }}</p>
+                    <p class="list-description">{{ $t('rightside.education.fle.description') }}</p>
                 </div>
             </div>
         </div>
@@ -142,12 +173,15 @@
             padding: 15px 25px;
             .header {
                 display: flex;
-                margin-top: 25px;
+                margin-top: 10px;
                 .header-icon {
                     border: 3px solid rgba(75, 75, 75, 0.8);
                     border-radius: 50%;
                     padding: 8px;
                     margin-right: 15px;
+                    &.graduation-cap {
+                        padding: 7px;
+                    }
                 }
                 .header-title {
                     font-size: 20px;
@@ -176,14 +210,14 @@
                 }
             }
             .skills {
-                margin: 10px 0 20px 20px;
+                margin: 5px 0 10px 20px;
                 display: grid;
                 grid-template-columns: 20px 200px 200px;
-                grid-template-rows: 55px 55px 55px 55px;
+                grid-template-rows: 45px 45px 45px 45px;
                 .left-line {
                     grid-row-start: 1;
                     grid-row-end: 5;
-                    padding-top: 5px;
+                    padding-top: 16px;
                 }
                 .skill-item {
                     display: flex;
@@ -197,39 +231,47 @@
                     }
                 }
             }
-            .employment {
-                margin: 10px 0 20px 20px;
+            .list {
+                margin: 0px 0 20px 20px;
                 display: grid;
                 grid-template-columns: 20px auto;
-                grid-template-rows: 166px 208px 126px;
+                grid-template-rows: 50px 50px;
                 .left-line {
                     padding-top: 14px;
                 }
-                .employment-item {
+                .list-item {
                     padding-left: 20px;
                     padding-top: 8px;
-                    .employment-date {
+                    .list-date {
                         margin-top: 0;
                         margin-bottom: 5px;
                     }
-                    .employment-company {
+                    .list-company {
                         margin-top: 0;
                         margin-bottom: 5px;
                         font-size: 18px;
                         font-weight: 600;
                     }
-                    .employment-job {
+                    .list-job {
                         margin-top: 0;
                         margin-bottom: 5px;
                         font-weight: 600;
                     }
-                    .employment-description {
+                    .list-description {
                         margin: 0;
                     }
                 }
             }
-
-
+            .employment {
+                display: grid;
+                grid-template-columns: 20px auto;
+                grid-template-rows: 202px 162px 124px;
+            }
+            .education {
+                display: grid;
+                grid-template-columns: 20px auto;
+                grid-template-rows: 142px 120px;
+            }
         }
     }
 </style>

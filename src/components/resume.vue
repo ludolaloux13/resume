@@ -17,7 +17,6 @@
 
 <style scoped lang="scss">
     .resume-wrapper {
-        border: 2px solid rgba(75, 75, 75, 0.8);
         height: 1170px;
         width: 827px;
         display: flex;
