@@ -309,7 +309,7 @@
             .education {
                 display: grid;
                 grid-template-columns: 20px auto;
-                grid-template-rows: 142px 74px;
+                grid-template-rows: 142px 72px;
             }
         }
     }
