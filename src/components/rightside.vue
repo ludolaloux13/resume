@@ -19,64 +19,64 @@
                     <div class="skill-title">
                         <span>{{ $t('rightside.skills.html') }}</span>
                     </div>
-                    <div class="skill-level">
-                        <img src="../assets/html.png" width="40"/>
+                    <div class="skill-logo">
+                        <img src="../assets/html.png" width="32"/>
                     </div>
                 </div>
                 <div class="skill-item">
                     <div class="skill-title">
                         <span>{{ $t('rightside.skills.javascript') }}</span>
                     </div>
-                    <div class="skill-level">
-                        <img src="../assets/javascript.png" width="40"/>
+                    <div class="skill-logo">
+                        <img src="../assets/javascript.png" width="32"/>
                     </div>
                 </div>
                 <div class="skill-item">
                     <div class="skill-title">
                         <span>{{ $t('rightside.skills.vuejs') }}</span>
                     </div>
-                    <div class="skill-level">
-                        <img src="../assets/vue.png" width="40"/>
+                    <div class="skill-logo">
+                        <img src="../assets/vue.png" width="32"/>
                     </div>
                 </div>
                 <div class="skill-item">
                     <div class="skill-title">
                         <span>{{ $t('rightside.skills.react') }}</span>
                     </div>
-                    <div class="skill-level">
-                        <img src="../assets/react.png" width="40"/>
+                    <div class="skill-logo">
+                        <img src="../assets/react.png" width="32"/>
                     </div>
                 </div>
                 <div class="skill-item">
                     <div class="skill-title">
                         <span>{{ $t('rightside.skills.python') }}</span>
                     </div>
-                    <div class="skill-level">
-                        <img src="../assets/python.png" width="40"/>
+                    <div class="skill-logo">
+                        <img src="../assets/python.png" width="32"/>
                     </div>
                 </div>            
                 <div class="skill-item">
                     <div class="skill-title">
                         <span>{{ $t('rightside.skills.django') }}</span>
                     </div>
-                    <div class="skill-level">
-                        <img src="../assets/django.jpeg" width="40"/>
+                    <div class="skill-logo">
+                        <img src="../assets/django.jpeg" width="32"/>
                     </div>
                 </div>
                 <div class="skill-item">
                     <div class="skill-title">
                         <span>{{ $t('rightside.skills.webpack') }}</span>
                     </div>
-                    <div class="skill-level">
-                        <img src="../assets/webpack.png" width="40"/>
+                    <div class="skill-logo">
+                        <img src="../assets/webpack.png" width="32"/>
                     </div>
                 </div>
                 <div class="skill-item">
                     <div class="skill-title">
                         <span>{{ $t('rightside.skills.git') }}</span>
                     </div>
-                    <div class="skill-level">
-                        <img src="../assets/git.png" width="40"/>
+                    <div class="skill-logo">
+                        <img src="../assets/git.png" width="32"/>
                     </div>
                 </div>                                            
             </div>
@@ -226,7 +226,7 @@
                     .skill-title {
                         padding-left: 20px;
                     }
-                    .skill-level {
+                    .skill-logo {
                         padding-right: 12px;
                     }
                 }

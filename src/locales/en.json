@@ -2,16 +2,17 @@
   "profile": {
       "name": "Ludovic Laloux",
       "title1": "Développeur",
-      "title2": "Front-End",
+      "title2": "Full Stack",
       "description": {
         "title": "Présentation",
-        "content": "Développeur Front-End, avec une formation Full Stack et un fort intérêt pour l'UX, le SEO et le Responsive Web Design."
+        "content": "Développeur Full Stack, avec une expérience enrichissante en développement Front-End et le désir de maîtriser le développement Back-End."
       },
       "contact": {
         "title": "Contact",
         "phone": "06.22.11.59.93",
         "mail": "ludo.laloux@gmail.com",
         "website": "www.ludoviclaloux.com",
+        "github": "github.com/ludolaloux13",
         "address": "Toulouse, France"
       },
       "hobbies": {

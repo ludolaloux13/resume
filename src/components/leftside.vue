@@ -40,7 +40,11 @@
                 </div>
                 <div class="contact-item">
                     <font-awesome-icon size="1x" icon="desktop"/> 
-                    <span>{{ $t('profile.contact.website') }}</span>
+                    <span>{{ $t('profile.contact.website') }}</span><br>
+                </div>
+                <div class="contact-item">
+                    <font-awesome-icon size="1x" :icon="['fab', 'github']"/> 
+                    <span>{{ $t('profile.contact.github') }}</span>
                 </div>
             </div>
             <div class="hobbies">
@@ -84,7 +88,7 @@
             height: 186px;
             margin-top: 30px;
             margin-left: auto; 
-            margin-bottom: 30px;
+            margin-bottom: 22px;
             margin-right: auto;
 
             .picture {
@@ -118,7 +122,7 @@
         }
 
         .profile-header {
-            padding-top: 30px;
+            padding-top: 20px;
             padding-left: 36px;
             .header-title {
                 font-size: 22px;
@@ -135,8 +139,8 @@
             padding-top: 10px;
             padding-bottom: 18px;
             .contact-item {
-                padding-top: 18px;
-                padding-left: 16px;
+                padding-top: 12px;
+                padding-left: 18px;
                 span {
                     padding-left: 12px;
                 }
@@ -146,7 +150,7 @@
             padding-top: 10px;
             .hobbies-item {
                 display: flex;
-                padding-top: 18px;
+                padding-top: 12px;
                 padding-left: 16px;
                 p {
                     padding-left: 12px;
