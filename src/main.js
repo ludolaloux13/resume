@@ -7,7 +7,6 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { faUser, faIdBadge, faPaperPlane } from '@fortawesome/free-regular-svg-icons';
 import { faEnvelope, faPhone, faMapMarkerAlt, faDesktop, faSwimmer, faGuitar, faPlane, faBriefcase, faGraduationCap, faStar } from '@fortawesome/free-solid-svg-icons';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 library.add(
   faUser,
@@ -23,7 +22,6 @@ library.add(
   faStar,
   faBriefcase,
   faGraduationCap,
-  faGithub
 )
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)

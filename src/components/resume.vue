@@ -20,7 +20,6 @@
         height: 1170px;
         width: 827px;
         display: flex;
-        border: 1px solid black;
         .left-side {
             width: 30%;
             height: 100%;

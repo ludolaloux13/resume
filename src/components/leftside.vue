@@ -42,10 +42,10 @@
                     <font-awesome-icon size="1x" icon="desktop"/> 
                     <span>{{ $t('profile.contact.website') }}</span><br>
                 </div>
-                <div class="contact-item">
+                <!-- <div class="contact-item">
                     <font-awesome-icon size="1x" :icon="['fab', 'github']"/> 
                     <span>{{ $t('profile.contact.github') }}</span>
-                </div>
+                </div> -->
             </div>
             <div class="hobbies">
                 <div class="profile-header">

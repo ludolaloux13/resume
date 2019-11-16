@@ -5,14 +5,13 @@
       "title2": "Full Stack",
       "description": {
         "title": "Présentation",
-        "content": "Développeur Full Stack, avec une expérience enrichissante en développement Front-End et le désir de maîtriser le développement Back-End."
+        "content": "Développeur Full Stack, avec une expérience enrichissante en développement Front-End et le désir de maîtriser le développement Back-End PHP, JavaEE ou Python."
       },
       "contact": {
         "title": "Contact",
         "phone": "06.22.11.59.93",
         "mail": "ludo.laloux@gmail.com",
         "website": "www.ludoviclaloux.com",
-        "github": "github.com/ludolaloux13",
         "address": "Toulouse, France"
       },
       "hobbies": {
@@ -32,7 +31,13 @@
       "python": "Python",
       "django": "Django",
       "webpack": "Webpack",
-      "git": "Git"
+      "git": "Git",
+      "project": {
+        "personal": "Projets personnels :",
+        "github": "github.com/ludolaloux13",
+        "animation": "Animations web :",
+        "codepen": "codepen.io/ludolaloux"
+      }
     },
     "employment": {
       "title": "Expériences",
@@ -40,9 +45,13 @@
         "date": "mars - août 2019",
         "company": "Guidap",
         "job": "Développeur Web Front-End",
-        "description1": "Stage de 6 mois au sein de l'équipe en charge du développement produit.",
-        "description2": "Participation à l'intégration, au développement et à la maintenance des interfaces du produit Guidap sous VueJs.",
-        "description3": "Stack technique: VueJS, Bootstrap, Webpack, Docker, Php/Symfony."
+        "description1": "Intégration et développement des interfaces.",
+        "description2": "Développement de nouvelles fonctionnalités.",
+        "description3": "Maintenance de l’application",
+        "description4": "Amélioration des performances",
+        "description5": "Rédaction de spécifications techniques",
+        "description6": "Mise en place d’un linter afin d’harmoniser les règles syntaxiques.",
+        "description7": "Stack technique: VueJS, Bootstrap, Webpack, Docker, Php/Symfony."
       },
       "inp": {
         "date": "janvier 2016 - septembre 2018",
@@ -70,8 +79,7 @@
       "fle": {
         "date": "juin 2015",
         "school": "Université Montpellier 3",
-        "degree": "Maitrise \"Enseignement du Français Langue Etrangère\"",
-        "description": "Formation en didactique pour l'apprentissage des langues étrangères"
+        "degree": "Maitrise \"Enseignement du Français Langue Etrangère\""
       }
     }
   }
